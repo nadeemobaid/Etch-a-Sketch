@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    background-color: #3e86ac;
+    color: white;
+    border: 1px solid #3e86ac;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.grid-container {
+    margin-top: 10px;
+    border: 1px solid #3e86ac;
+    border-radius: 2px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.grid-col {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-row{
+    flex: 1;
+    border: 1px solid red;
+}
