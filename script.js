@@ -27,12 +27,12 @@ function removeGrid() {
 }
 
 function userGrid(){
-    const gridSize = parseInt(prompt("Enter your desired GRID SIZE\nrange 1-10"));
+    const gridSize = parseInt(prompt("Enter your desired GRID SIZE\nrange 1-10",16));
     if(gridSize < 1 || gridSize > 100){
-        alert("Please enter integer number 1-100 only")
+        alert("Please enter integer number 1-100 only");
     } else {
         removeGrid();
-        createGrid(gridSize)
+        createGrid(gridSize);
     };
 }
 
